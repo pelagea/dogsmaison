@@ -1,0 +1,321 @@
+@font-face {
+    font-family: 'Gilroy';
+    src: local('Gilroy Regular'), local('Gilroy-Regular'),
+        url('../fonts/Gilroy-Regular.woff') format('woff'),
+        url('../fonts/Gilroy-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Gilroy';
+    src: local('Gilroy Bold'), local('Gilroy-Bold'),
+        url('../fonts/Gilroy-Bold.woff') format('woff'),
+        url('../fonts/Gilroy-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: bold;
+}
+.gilroy {
+     font-family: Gilroy;
+     font-style: normal;
+     font-weight: normal;
+}
+.header-menu-button {
+     font-size: 17px;
+     line-height: 20px;
+     margin-top: auto; margin-bottom: auto; margin-left: 70px;
+     text-decoration: none;
+     color: inherit;
+}
+.button {
+    background: #242020;
+    border-radius: 1.75em;
+    font-size: 16px;
+    line-height: 19px;
+    color: #fff;
+    border-width: 0px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 12.98%;
+    padding: 17px 43px;
+    white-space: nowrap;
+    text-decoration: none;
+}
+.landing-header {
+    display: flex;
+    flex-direction: row;
+    margin: 23px 140px;
+}
+.landing-header > img {
+    margin-right: auto;
+}
+.dog-hello {
+    display: flex;
+    margin: 0px 140px;
+}
+.dog-hello > img {
+}
+.button.find-friend {
+    font-size: 24px;
+    line-height: 29px;
+    margin-left: auto; margin-right: auto;
+    margin-top: 109px;
+}
+.button:hover {
+    background-color: #E06E1C;
+}
+
+.call-for-action {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    margin-bottom: auto;
+    margin-top: auto;
+    margin-right: 56px;
+}
+.call-for-action > h1 {
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 65px;
+    margin-top: 0px;
+    margin-bottom: 28px;
+}
+.call-for-action > p {
+    font-size: 30px;
+    font-weight: normal;
+    line-height: 36px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #242020;
+}
+
+.service-explain {
+    display: flex;
+    flex-direction: row;
+    background-color: #242020;
+    overflow: hidden;
+}
+.service-explain > .doggo {
+    width: 50%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.service-explain > .doggo > img {
+    margin-bottom: -7%;
+}
+.text-white {
+    color: #FFFFFF;
+}
+.service-explain-text > p{
+    font-size: 26px;
+    line-height: 40px;
+    margin-left: 5px;
+    margin-top: 142px;
+    margin-right: 133px;
+}
+.why {
+    background: #E5E5E5;
+    display: flex;
+    flex-direction: column;
+    height: 900px;
+}
+.why-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 79px;
+}
+.why-points {
+    display: flex;
+    justify-content: center;
+}
+.why h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 70px;
+    line-height: 87px;
+}
+.why-text {
+    margin-right: 66px;
+    margin-left: 66px;
+    width: 300px;
+}
+.why-text > p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+
+    margin-top: 51px;
+}
+.number {
+    background: #242020;
+    border-radius: 50%;
+    height: 110px;
+    width: 110px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 100px;
+    line-height: 110px;
+    color: #FFFFFF;
+    text-align: center;
+}
+.breeder {
+    background: rgba(36, 32, 32, 0.9);
+}
+.breeder-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.breeder-header h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 70px;
+    line-height: 87px;
+    color: #FFFFFF;
+}
+.breeder-text p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 40px;
+    color: #FFFFFF;
+    margin-left: 143px;
+    margin-right: 143px;
+}
+.breeder-points {
+    display: flex;
+    flex-direction: column;
+    margin-left: 143px;
+    margin-top: 77px;
+}
+.breeder-points p {
+    font-size: 26px;
+    line-height: 31px;
+    color: #FFFFFF;
+    margin-left: 18px;
+}
+.breeder-point {
+    display: flex;
+    margin-top: 19px;
+    margin-bottom: 19px;
+}
+.breeder-number {
+    width: 88px;
+    height: 86px;
+    background: #FFFFFF;
+    font-size: 70px;
+    color: #242020;
+    line-height: 86px;
+}
+.button-join {
+    background-color: #242020;
+    margin-top: auto;
+    margin-bottom: 27px;
+}
+.breeder-row {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 148px;
+}
+@media (max-width: 1400px) {
+    .breeder-row {
+        display: flex;
+        flex-direction: column;
+    }
+    .breeder-row .button-join {
+        margin-left: 0;
+        margin-top: 2em;
+    }
+}
+.breeder-join {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+}
+.register {
+    display: flex;
+    background-color: #242020;
+    overflow: hidden;
+}
+.register > .register-dog {
+    width: 50%;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 60px;
+}
+.register-dog img {
+    width: 180%;
+    margin-bottom: -10%;
+}
+.register-column {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+.register-form {
+    display: flex;
+    flex-direction: column;
+}
+.register-form > div, .register-form > input {
+    margin-bottom: 32px;
+}
+.register-input {
+    height: 40px;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    color: #515151;
+    padding-left: 39px;
+}
+.register-input-name {
+    flex-grow: 1;
+    margin-right: 18px;
+}
+.register-input-lastname {
+    flex-grow: 1;
+    margin-left: 18px;
+}
+.name {
+    display: flex;
+}
+.register-form .checkbox span {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    color: #E9E9E9;
+}
+.button-orange {
+    background: #E06E1C;
+    margin-top: 77px;
+    margin-left: 0px;
+    width: 50%;
+    -webkit-appearance: none;
+}
+.register-header h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 65px;
+}
+.register-header p {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 25px;
+    color: #D9D9D9;
+    margin-bottom: 85px;
+}
+body {
+    margin: 0;
+    display: flex; flex-direction: column; background: #EFEDEB;
+}

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="stylesheets/index.css">
+        <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+        <title>Dog's Maison</title>
+    </head>
+    <body class="gilroy">
+        <div class="landing-header">
+            <img src="images/logo.png"></img>
+            <a class="header-menu-button" href="#">О&nbsp;сервисе</a>
+            <a class="header-menu-button" href="#">Контакты</a>
+            <a class="header-menu-button" href="#">Помощь</a>
+            <a class="button">Войти</a>
+        </div>
+        <div class="dog-hello">
+            <section class="call-for-action">
+                <h1>Гулять по парку с пушистым другом?</h1>
+                <p>Осуществите свою мечту уже сегодня. <br>А мы вам поможем!</p>
+                <button class="button find-friend">Найти друга</button>
+            </section>
+            <img src="./images/1.png"></img>
+        </div>
+        <div class="service-explain">
+            <div class="doggo"><img src="./images/2.png"></img></div>
+            <div class="service-explain-text text-white"><p>Наш сервис поможет быстро и безопасно найти подходящего именно вам питомца. Этот процесс оставит у вас самые приятные воспоминания.</p></div>
+        </div>
+        <div class="why">
+            <div class="why-header">
+                <h1>Почему?</h1>
+            </div>
+            <div class="why-points">
+                <div class="why-text"> 
+                    <div class="number">1</div>
+                    <p>Наши щенки здоровы и привиты, все это, а также их родовитость, подтверждаются справками, которые вы сможете увидеть своими глазами.</p>
+                </div>
+                <div class="why-text"> 
+                    <div class="number">2</div>
+                    <p>Перед покупкой вы сможете ознакомиться с фото- и видеоматериалами о собаке, документами, а также договориться о комфортной доставке, если питомец находится в другом городе.</p>
+                </div>
+                <div class="why-text"> 
+                    <div class="number">3</div>
+                    <p>Если вы не нашли собаку своей мечты в данный момент - не расстраивайтесь, возможно, она совсем скоро появится на свет! Об этом вам с радостью сообщат заводчики, когда увидят вашу заявку.</p>
+                </div>
+            </div>
+        </div>
+        <div class="breeder">
+             <div class="breeder-header">
+                <h1>Если вы заводчик</h1>
+            </div>
+            <div class="breeder-text">
+                <p>Отличная новость! На нашем сервисе вы сможете найти самых заинтересованных и ответственных клиентов, а также безопасно провести сделку. Кроме того, на сервисе удобно подбирать пару своему питомцу.</p>
+            </div>
+            <div class="breeder-row">
+                <div class="breeder-points">
+                    <div class="breeder-point">
+                        <div class="number breeder-number">1</div>
+                        <p>Лояльные клиенты</p>
+                    </div>
+                    <div class="breeder-point">
+                        <div class="number breeder-number">2</div>
+                        <p>Анкеты клиентов на сайте</p>
+                    </div>
+                    <div class="breeder-point">
+                        <div class="number breeder-number">3</div>
+                        <p>Возможность выбрать, кому вы отдатите питомца</p>
+                    </div>
+                </div>
+                <div class="breeder-join">
+                    <button class="button button-join">Присоединиться</button>
+                </div>
+            </div> 
+        </div>
+        <div class="register">
+            <div class="register-dog"><img src="./images/3.png"></img></div>
+            <div class="register-column">
+                <div class="register-header text-white">
+                    <h1>Регистрируйся сейчас!</h1>
+                    <p>И получай бесплатную консультацию кинолога, а&nbsp;также скидку на ветеринарное обслуживание!</p>
+                </div> 
+                <form class="register-form">
+                    <div class="name">
+                        <input class="register-input register-input-name" type="text" placeholder="Имя">
+                        <input class="register-input register-input-lastname" type="text" placeholder="Фамилия">
+                    </div>
+                    <input class="register-input" type="text" placeholder="E-mail">
+                    <input class="register-input" type="password" placeholder="Пароль">
+                    <input class="register-input" type="password" placeholder="Подтвердить пароль">
+                    <div class="checkbox">
+                        <input type="checkbox">
+                        <span>Подписаться на рассылку</span>
+                    </div>
+                    <div style="display: flex; justify-content: center;">
+                        <input class="button button-orange" type="submit" value="Присоединиться">
+                    </div>
+                </form>
+            </div>
+        </div>
+        <script>
+            for (ele of document.querySelectorAll('.header-menu-button')) {
+                ele.addEventListener('click', () => {
+
+                    fetch('http://ya.ru')
+                })
+            }
+        </script>
+    </body>
+</html>
